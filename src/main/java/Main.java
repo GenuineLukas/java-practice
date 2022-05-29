@@ -43,7 +43,7 @@ class Calculation {
     }
  */
 
-public class Main {
+public class Tester {
     public static void main(String[] args) {
         //making an instance for the class Phone
         Phone galaxy = new Phone("Galaxy10", "Black", 1000);
