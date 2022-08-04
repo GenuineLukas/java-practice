@@ -22,5 +22,10 @@ public class Main {
 
         System.out.println(dateOf);
         System.out.println(timeOf);
+        
+         //printing current date and time in the form of "Year/Month/Day Hour/Min"
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/MM/dd h/mm");
+        String now = dateTimeFormatter.format(LocalDateTime.now());
+        System.out.println("Current Time: " + now);
     }
 }
