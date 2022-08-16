@@ -16,7 +16,7 @@ public class Arrays {
         for ( int i = 0; i < intArray.length; i++) {
             System.out.println(intArray[i]);
         }
-        // some inefficient aspect of using an array.
+        // an inefficient aspect of using an array.
         // if someone asked to return the index value of the result 7.
         int index = -1;
         for ( int i = 0; i < intArray.length; i++ ) {
